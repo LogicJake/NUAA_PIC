@@ -1,35 +1,41 @@
-from DownLoadPic import *
+from API import *
 from Login import SaveCookie
 
-
-def GenerateStuNum(college,year,major,classNum,stuNum):         #生成学号
-    college = str(college)
-    year = str(year)
-    major = str(major)
-    classNum = str(classNum)
-    stuNum = str(stuNum)
-    if college.__len__() == 1:
-        college = '0'+college
-    if classNum.__len__() == 1:
-        classNum = '0'+classNum
-    if year.__len__() == 1:
-        year = '0'+year
-    if stuNum.__len__() == 1:
-        stuNum = '0'+stuNum
-    return college+year+major+classNum+stuNum
-
-def ListNumber(college = 1,year = 15,major = 1,classNum = 1,stuNum = 1):         #学院号两位，年段两位，专业号1位，班级号两位，学号2位
-    # for j in range(year,17+1):
-    #    for i in range(college, 17):
-           for k in range(major,5):
-               for m in range(classNum,5):
-                   for n in range(stuNum,50):
-                       if DownLoadPicPic(GenerateStuNum(college,year,k,m,n)) == 0:
-                           break
-SaveCookie()
-ListNumber(16,15,4,2,1)
-#ListNumber(16,15,4,2,1)
-# if SaveCookie() ==0 :                        #获取cookie
-#     exit()                                 #
-# else:
-#     print()        #爬取照片
+usr = input("请输入您的学号:")
+pwd = input("请输入教务处密码：")
+res = SaveCookie(usr,pwd)
+if  res == 0: # 访问获取cookie
+    print("网络错误")
+elif res == 2:
+    print("密码错误")
+elif res == 1:      #登陆成功
+    if usr == "161540208":      #管理员身份
+        admin = 1
+        print("1.下载某个专业\t2.下载某个学院\t3.下载某个年级\t4.下载某个班\t5.下载某个人\t6.下载所有\n")
+    else:
+        admin = 0
+        print("1.下载某个专业\t2.下载某个学院\t3.下载某个年级\t4.下载某个班\t5.下载某个人\n")
+    choose = input("请输入您的选择:")
+    if choose == "1":
+        college = input("请输入学院号:")
+        year = input("请输入年级:")
+        major = input("请输入专业编号:")
+        DownLoadMajor(college, year, major)
+    elif choose == "2":
+        college = input("请输入学院号:")
+        year = input("请输入年级:")
+        DownLoadCollege(college, year)
+    elif choose == "3":
+        year = input("请输入年级:")
+        DownLoadYear(year)
+    elif choose == "4":
+        college = input("请输入学院号:")
+        year = input("请输入年级:")
+        major = input("请输入专业编号:")
+        classNo = input("请输入班号:")
+        DownLoadClass(college, year, major, classNo)
+    elif choose == "5":
+        stuNo = input("请输入学号:")
+        DownLoadPic(stuNo)
+    elif choose == "6" & admin == 1:
+        DownLoadAll()

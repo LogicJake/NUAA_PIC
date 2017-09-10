@@ -17,7 +17,7 @@ def checkDir(pic):
             os.mkdir("." + os.sep + college + "院" + os.sep + year + "级" + os.sep)
         os.mkdir("." + os.sep + college + "院" + os.sep + year + "级" + os.sep + classNum + os.sep)
 
-def DownLoadPicPic(xh,pic = "xh"): # 利用cookie.txt中的cookie访问http://ded.nuaa.edu.cn/netean/com/jbqkcx.asp
+def DownLoadPic(xh,pic = "xh"): # 利用cookie.txt中的cookie访问http://ded.nuaa.edu.cn/netean/com/jbqkcx.asp
     cookie_filename = 'cookie.txt'
     cookie = http.cookiejar.MozillaCookieJar(cookie_filename)
     cookie.load(cookie_filename, ignore_discard=True, ignore_expires=True)      # 加载cookie
