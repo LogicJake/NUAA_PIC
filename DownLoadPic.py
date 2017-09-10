@@ -47,7 +47,7 @@ def DownLoadPic(xh,pic = "xh"): # 利用cookie.txt中的cookie访问http://ded.n
         return 0
 
     checkDir(xh)       #生成对应的文件夹
-    fhand = open('./' + str(xh[0:2]) + '院/' + str(xh[2:4]) + "级/" + str(xh[4:7]) + "/" + xh + '.jpg', 'wb')
+    fhand = open('.'+ os.sep + str(xh[0:2]) + '院'+ os.sep + str(xh[2:4]) + "级"+ os.sep + str(xh[4:7]) + os.sep + xh + '.jpg', 'wb')
     size = 0
     while True:
         info = get_response.read(100000)

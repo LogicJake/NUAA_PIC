@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56829f2-f5a7-4bf7-b243-6de35bce1f78" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="b56829f2-f5a7-4bf7-b243-6de35bce1f78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DownLoadPic.py" afterPath="$PROJECT_DIR$/DownLoadPic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.py" afterPath="$PROJECT_DIR$/Login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookie.txt" afterPath="$PROJECT_DIR$/cookie.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,54 +16,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NUAA_PIC$DownLoadPic.coverage" NAME="DownLoadPic Coverage Results" MODIFIED="1505029377936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NUAA_PIC$Login.coverage" NAME="Login Coverage Results" MODIFIED="1505023362354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NUAA_PIC$main.coverage" NAME="main Coverage Results" MODIFIED="1505044610804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NUAA_PIC$main.coverage" NAME="main Coverage Results" MODIFIED="1505048882031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="161440213.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16院/14级/402/161440213.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="161440212.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16院/14级/402/161440212.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="API.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/API.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="41" column="133" lean-forward="false" selection-start-line="41" selection-start-column="133" selection-end-line="41" selection-end-column="133" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="161440211.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16院/14级/402/161440211.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,10 +40,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Login.py" />
-        <option value="$PROJECT_DIR$/DownLoadPic.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/API.py" />
+        <option value="$PROJECT_DIR$/DownLoadPic.py" />
       </list>
     </option>
   </component>
@@ -132,6 +83,24 @@
             <path>
               <item name="NUAA_PIC" type="b2602c69:ProjectViewProjectNode" />
               <item name="NUAA_PIC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NUAA_PIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NUAA_PIC" type="462c0819:PsiDirectoryNode" />
+              <item name="16院" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NUAA_PIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NUAA_PIC" type="462c0819:PsiDirectoryNode" />
+              <item name="16院" type="462c0819:PsiDirectoryNode" />
+              <item name="15级" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NUAA_PIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NUAA_PIC" type="462c0819:PsiDirectoryNode" />
+              <item name="16院" type="462c0819:PsiDirectoryNode" />
+              <item name="15级" type="462c0819:PsiDirectoryNode" />
+              <item name="402" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504780613503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善方法">
+      <created>1505044756514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505044756514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -298,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="完善方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -496,26 +473,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DownLoadPic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16院/14级/402/161440209.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -556,20 +513,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/16院/14级/402/161440211.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="41" column="133" lean-forward="false" selection-start-line="41" selection-start-column="133" selection-end-line="41" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16院/14级/402/161440213.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16院/14级/402/161440211.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -589,11 +546,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API.py">
+    <entry file="file://$PROJECT_DIR$/16院/15级/402/161540208.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DownLoadPic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="41" column="133" lean-forward="false" selection-start-line="41" selection-start-column="133" selection-end-line="41" selection-end-column="133" />
+        <state relative-caret-position="293">
+          <caret line="49" column="102" lean-forward="false" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16院/15级/402/161540217.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
