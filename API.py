@@ -1,5 +1,6 @@
-from DownLoadPic import *
+# -*- coding: utf-8 -*-
 
+from DownLoadPic import *
 
 def GenerateStuNum(college, year, major, classNum, stuNum):  # 生成学号
     college = str(college)

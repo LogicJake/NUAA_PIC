@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from API import *
 from Login import SaveCookie
 
