@@ -2,7 +2,7 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.ded.nuaa.edu.cn	TRUE	/	FALSE	1505115752	DedHasLogin	1
-.ded.nuaa.edu.cn	TRUE	/NetEAn	FALSE	1505115752	LogonType	%B0%E0%BC%B6
-.ded.nuaa.edu.cn	TRUE	/NetEAn	FALSE	1505115752	User	1615402
-ded.nuaa.edu.cn	FALSE	/	FALSE		ASPSESSIONIDQABSQATT	PDALKDDCKJDGKFOGNOKFBCNG
+.ded.nuaa.edu.cn	TRUE	/	FALSE	1505120896	DedHasLogin	1
+.ded.nuaa.edu.cn	TRUE	/NetEAn	FALSE	1505120896	LogonType	%B0%E0%BC%B6
+.ded.nuaa.edu.cn	TRUE	/NetEAn	FALSE	1505120896	User	1615402
+ded.nuaa.edu.cn	FALSE	/	FALSE		ASPSESSIONIDQABSQATT	PGFLKDDCMHCPANCBLMNFJOHC
