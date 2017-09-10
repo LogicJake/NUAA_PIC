@@ -24,7 +24,7 @@ def DownLoadAll():  # 学院号两位，年段两位，专业号1位，班级号
             for k in range(1, 10):
                 for m in range(1, 10):
                     for n in range(1, 50):
-                        if DownLoadPic(GenerateStuNum(i, j, k, m, n)) == 0 & DownLoadPic(GenerateStuNum(i, j, k, m, n+1)) == 0:
+                        if DownLoadPic(GenerateStuNum(i, j, k, m, n)) == 0 and DownLoadPic(GenerateStuNum(i, j, k, m, n+1)) == 0:
                             break
 
 
@@ -32,20 +32,20 @@ def DownLoadCollege(college, year):  # 下载某个学院
     for k in range(1, 10):
         for m in range(1, 10):
             for n in range(1, 50):
-                if DownLoadPic(GenerateStuNum(college, year, k, m, n)) == 0 & DownLoadPic(GenerateStuNum(college, year, k, m, n+1)) == 0:
+                if DownLoadPic(GenerateStuNum(college, year, k, m, n)) == 0 and DownLoadPic(GenerateStuNum(college, year, k, m, n+1)) == 0:
                     break
 
 
 def DownLoadMajor(college, year, major):  # 下载某个专业
     for m in range(1, 10):
         for n in range(1, 50):
-            if DownLoadPic(GenerateStuNum(college, year, major, m, n)) == 0 & DownLoadPic(GenerateStuNum(college, year, major, m, n+1)) == 0:
+            if DownLoadPic(GenerateStuNum(college, year, major, m, n)) == 0 and DownLoadPic(GenerateStuNum(college, year, major, m, n+1)) == 0:
                 break
 
 
 def DownLoadClass(college, year, major, classNo):  # 下载某个班
     for n in range(1, 50):
-        if DownLoadPic(GenerateStuNum(college, year, major, classNo, n)) == 0 & DownLoadPic(GenerateStuNum(college, year, major, classNo, n+1)) == 0:
+        if DownLoadPic(GenerateStuNum(college, year, major, classNo, n)) == 0 and DownLoadPic(GenerateStuNum(college, year, major, classNo, n+1)) == 0:
             break
 
 
@@ -54,5 +54,5 @@ def DownLoadYear(year):
         for k in range(1, 10):
             for m in range(1, 10):
                 for n in range(1, 50):
-                    if DownLoadPic(GenerateStuNum(i, year, k, m, n)) == 0 & DownLoadPic(GenerateStuNum(i, year, k, m, n+1)) == 0:
+                    if DownLoadPic(GenerateStuNum(i, year, k, m, n)) == 0 and DownLoadPic(GenerateStuNum(i, year, k, m, n+1)) == 0:
                         break
