@@ -1,6 +1,7 @@
-详细说明:https://www.logicjake.xyz/?p=42
 ![pyversions](https://img.shields.io/badge/python%20-3.5%2B-blue.svg)
 ![Travis](https://img.shields.io/travis/rust-lang/rust.svg)
+
+详细说明:https://www.logicjake.xyz/?p=42    
 ## 思路
 教务处个人信息url：http://ded.nuaa.edu.cn/netean/com/jbqkcx.asp  
 需要使用cookie登陆  
