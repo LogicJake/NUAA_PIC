@@ -1,4 +1,4 @@
-
+详细说明:https://www.logicjake.xyz/?p=42
 ![pyversions](https://img.shields.io/badge/python%20-3.5%2B-blue.svg)
 ![Travis](https://img.shields.io/travis/rust-lang/rust.svg)
 ## 思路
